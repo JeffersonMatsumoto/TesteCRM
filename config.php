@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-16 17:03:24
+// created: 2020-09-13 14:32:29
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -215,7 +215,7 @@ $sugar_config = array (
   'default_email_client' => 'sugar',
   'default_email_editor' => 'html',
   'default_export_charset' => 'UTF-8',
-  'default_language' => 'en_us',
+  'default_language' => 'pt_br',
   'default_locale_name_format' => 's f l',
   'default_max_tabs' => 10,
   'default_module' => 'Home',
@@ -309,7 +309,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 2,
+  'js_lang_version' => 3,
   'languages' => 
   array (
     'pt_BR' => ' Português (Brasil) - pt_BR',
@@ -393,7 +393,7 @@ $sugar_config = array (
   'securitysuite_popup_select' => false,
   'securitysuite_strict_rights' => false,
   'securitysuite_user_popup' => true,
-  'securitysuite_user_role_precedence' => true,
+  'securitysuite_user_role_precedence' => false,
   'securitysuite_version' => '6.5.17',
   'session_dir' => '',
   'showDetailData' => true,
@@ -449,4 +449,10 @@ $sugar_config = array (
   'use_real_names' => true,
   'vcal_time' => '2',
   'verify_client_ip' => true,
+  'default_module_favicon' => false,
+  'dashlet_auto_refresh_min' => '30',
+  'stack_trace_errors' => false,
+  'developerMode' => true,
+  'disabled_languages' => '',
+  'securitysuite_inbound_email' => false,
 );

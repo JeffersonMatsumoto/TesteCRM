@@ -81,11 +81,63 @@
 <div class="panel-heading ">
 <a class="" role="button" data-toggle="collapse-edit" aria-expanded="false">
 <div class="col-xs-10 col-sm-11 col-md-11">
+{sugar_translate label='LBL_EDITVIEW_PANEL1' module='Accounts'}
+</div>
+</a>
+</div>
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="LBL_EDITVIEW_PANEL1">
+<div class="tab-content">
+<!-- tab_panel_content.tpl -->
+<div class="row edit-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 edit-view-row-item">
+
+
+<div class="col-xs-12 col-sm-2 label" data-label="LBL_TESTE">
+
+{minify}
+{capture name="label" assign="label"}{sugar_translate label='LBL_TESTE' module='Accounts'}{/capture}
+{$label|strip_semicolon}:
+
+<span class="required">*</span>
+{/minify}
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="teste_c" colspan='3' >
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.teste_c.value) <= 0}
+{assign var="value" value=$fields.teste_c.default_value }
+{else}
+{assign var="value" value=$fields.teste_c.value }
+{/if}  
+<input type='text' name='{$fields.teste_c.name}' 
+id='{$fields.teste_c.name}' size='30' 
+maxlength='255' 
+value='{$value}' title='Campo criado de teste '      >
+</div>
+
+<!-- [/hide] -->
+</div>
+<div class="clear"></div>
+</div>                    </div>
+</div>
+</div>
+
+
+
+
+<div class="panel panel-default">
+<div class="panel-heading ">
+<a class="" role="button" data-toggle="collapse-edit" aria-expanded="false">
+<div class="col-xs-10 col-sm-11 col-md-11">
 {sugar_translate label='LBL_ACCOUNT_INFORMATION' module='Accounts'}
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="LBL_ACCOUNT_INFORMATION">
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_0" data-id="LBL_ACCOUNT_INFORMATION">
 <div class="tab-content">
 <!-- tab_panel_content.tpl -->
 <div class="row edit-view-row">
@@ -529,7 +581,7 @@ SUGAR.util.doWhen(
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_0" data-id="LBL_PANEL_ADVANCED">
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_1" data-id="LBL_PANEL_ADVANCED">
 <div class="tab-content">
 <!-- tab_panel_content.tpl -->
 <div class="row edit-view-row">
@@ -1384,6 +1436,7 @@ addToValidate('EditView', 'jjwg_maps_address_c', 'varchar', false,'{/literal}{su
 addToValidate('EditView', 'jjwg_maps_geocode_status_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_JJWG_MAPS_GEOCODE_STATUS' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'jjwg_maps_lat_c', 'float', false,'{/literal}{sugar_translate label='LBL_JJWG_MAPS_LAT' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'jjwg_maps_lng_c', 'float', false,'{/literal}{sugar_translate label='LBL_JJWG_MAPS_LNG' module='Accounts' for_js=true}{literal}' );
+addToValidate('EditView', 'teste_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_TESTE' module='Accounts' for_js=true}{literal}' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Accounts' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Accounts' for_js=true}{literal}', 'assigned_user_id' );
 addToValidateBinaryDependency('EditView', 'parent_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Accounts' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_MEMBER_OF' module='Accounts' for_js=true}{literal}', 'parent_id' );
 addToValidateBinaryDependency('EditView', 'campaign_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Accounts' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_CAMPAIGN' module='Accounts' for_js=true}{literal}', 'campaign_id' );

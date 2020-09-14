@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2020-07-16 18:04:59
+<?php /* Smarty version 2.6.31, created on 2020-08-02 23:16:44
          compiled from modules/Emails/templates/emailSettingsAccountDetails.tpl */ ?>
 <?php echo $this->_tpl_vars['rollover']; ?>
 

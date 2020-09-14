@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2020-07-16 18:06:03
+<?php /* Smarty version 2.6.31, created on 2020-08-03 00:47:56
          compiled from cache/themes/SuiteP/modules/Users/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 40, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 60, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 136, false),array('function', 'sugar_phone', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 879, false),array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1433, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 129, false),array('modifier', 'escape', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1402, false),array('modifier', 'url2html', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1402, false),array('modifier', 'nl2br', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1402, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 41, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 61, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 138, false),array('function', 'sugar_phone', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 881, false),array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1435, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 131, false),array('modifier', 'escape', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1404, false),array('modifier', 'url2html', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1404, false),array('modifier', 'nl2br', 'cache/themes/SuiteP/modules/Users/DetailView.tpl', 1404, false),)), $this); ?>
 
 
 <script language="javascript">
@@ -32,13 +32,14 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 <input type="hidden" name="sugar_body_only">
 <?php if (! $this->_tpl_vars['config']['enable_action_menu']): ?>
 <div class="buttons">
-<input title="Edit" accessKey="i" name="Edit" id="edit_button" value="Edit" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+<input title="Editar" accessKey="i" name="Edit" id="edit_button" value="Editar" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
 '; _form.action.value='EditView';_form.submit();" type="button"/>
-<input id="duplicate_button" title="Duplicate" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicate"/>
-<input title="Reset User Preferences" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset all of the preferences for this user?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
-';" type="button" name="password" value="Reset User Preferences"/>
-<input title="Reset Homepage" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset your Homepage?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
-';" type="button" name="password" value="Reset Homepage"/>
+<input id="duplicate_button" title="Duplicar" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicar"/>
+<input id="delete_button" title="Excluir" type="button" class="button" onclick="confirmDelete();" value="Excluir" //>
+<input title="Retornar para as Preferências Padrão (Default)" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem certeza que quer repor todas as preferências para este usuário?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+';" type="button" name="password" value="Retornar para as Preferências Padrão (Default)"/>
+<input title="Restaurar para Página Principal Padrão" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem a certeza de que deseja restaurar a sua Página Principal?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+';" type="button" name="password" value="Restaurar para Página Principal Padrão"/>
 <?php if ($this->_tpl_vars['bean']->aclAccess('detail')): ?><?php if (! empty ( $this->_tpl_vars['fields']['id']['value'] ) && $this->_tpl_vars['isAuditEnabled']): ?><input id="btn_view_change_log" title="<?php echo $this->_tpl_vars['APP']['LNK_VIEW_CHANGE_LOG']; ?>
 " class="button" onclick='open_popup("Audit", "600", "400", "&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
 &module_name=Users", true, false,  { "call_back_function":"set_return","form_name":"EditView","field_to_name_array":[] } ); return false;' type="button" value="<?php echo $this->_tpl_vars['APP']['LNK_VIEW_CHANGE_LOG']; ?>
@@ -97,11 +98,11 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 </a>
 </li>
 <li role="presentation">
-<a data-toggle="tab" id="tab0" href="#">Advanced</a>
+<a data-toggle="tab" id="tab0" href="#">Avançada</a>
 </li>
 <?php if ($this->_tpl_vars['SHOW_ROLES'] == true): ?>
 <li role="presentation">
-<a data-toggle="tab" id="tab0" href="#">Access</a>
+<a data-toggle="tab" id="tab0" href="#">Acesso</a>
 </li>
 <?php endif; ?>
 </ul>
@@ -109,24 +110,25 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 
 
 <li role="presentation" class="hidden-xs ">
-<a data-toggle="tab" id="tab1" href="#">Advanced</a>
+<a data-toggle="tab" id="tab1" href="#">Avançada</a>
 </li>
 <?php if ($this->_tpl_vars['SHOW_ROLES']): ?>
 <li role="presentation" class="hidden-xs ">
-<a data-toggle="tab" id="tab2" href="#">Access</a>
+<a data-toggle="tab" id="tab2" href="#">Acesso</a>
 </li>
 <?php endif; ?>
 <?php if ($this->_tpl_vars['config']['enable_action_menu']): ?>
 <li id="tab-actions" class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">ACTIONS<span class="suitepicon suitepicon-action-caret"></span></a>
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ações<span class="suitepicon suitepicon-action-caret"></span></a>
 <ul class="dropdown-menu">
-<li><input title="Edit" accessKey="i" name="Edit" id="edit_button" value="Edit" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+<li><input title="Editar" accessKey="i" name="Edit" id="edit_button" value="Editar" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
 '; _form.action.value='EditView';_form.submit();" type="button"/></li>
-<li><input id="duplicate_button" title="Duplicate" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicate"/></li>
-<li><input title="Reset User Preferences" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset all of the preferences for this user?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
-';" type="button" name="password" value="Reset User Preferences"/></li>
-<li><input title="Reset Homepage" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset your Homepage?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
-';" type="button" name="password" value="Reset Homepage"/></li>
+<li><input id="duplicate_button" title="Duplicar" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicar"/></li>
+<li><input id="delete_button" title="Excluir" type="button" class="button" onclick="confirmDelete();" value="Excluir" //></li>
+<li><input title="Retornar para as Preferências Padrão (Default)" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem certeza que quer repor todas as preferências para este usuário?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+';" type="button" name="password" value="Retornar para as Preferências Padrão (Default)"/></li>
+<li><input title="Restaurar para Página Principal Padrão" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem a certeza de que deseja restaurar a sua Página Principal?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+';" type="button" name="password" value="Restaurar para Página Principal Padrão"/></li>
 <li><?php if ($this->_tpl_vars['bean']->aclAccess('detail')): ?><?php if (! empty ( $this->_tpl_vars['fields']['id']['value'] ) && $this->_tpl_vars['isAuditEnabled']): ?><input id="btn_view_change_log" title="<?php echo $this->_tpl_vars['APP']['LNK_VIEW_CHANGE_LOG']; ?>
 " class="button" onclick='open_popup("Audit", "600", "400", "&record=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
 &module_name=Users", true, false,  { "call_back_function":"set_return","form_name":"EditView","field_to_name_array":[] } ); return false;' type="button" value="<?php echo $this->_tpl_vars['APP']['LNK_VIEW_CHANGE_LOG']; ?>

@@ -24,10 +24,11 @@
 <input type="hidden" name="sugar_body_only">
 {if !$config.enable_action_menu}
 <div class="buttons">
-<input title="Edit" accessKey="i" name="Edit" id="edit_button" value="Edit" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='{$fields.id.value}'; _form.action.value='EditView';_form.submit();" type="button"/>
-<input id="duplicate_button" title="Duplicate" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicate"/>
-<input title="Reset User Preferences" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset all of the preferences for this user?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record={$fields.id.value}';" type="button" name="password" value="Reset User Preferences"/>
-<input title="Reset Homepage" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset your Homepage?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record={$fields.id.value}';" type="button" name="password" value="Reset Homepage"/>
+<input title="Editar" accessKey="i" name="Edit" id="edit_button" value="Editar" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='{$fields.id.value}'; _form.action.value='EditView';_form.submit();" type="button"/>
+<input id="duplicate_button" title="Duplicar" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicar"/>
+<input id="delete_button" title="Excluir" type="button" class="button" onclick="confirmDelete();" value="Excluir" //>
+<input title="Retornar para as Preferências Padrão (Default)" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem certeza que quer repor todas as preferências para este usuário?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record={$fields.id.value}';" type="button" name="password" value="Retornar para as Preferências Padrão (Default)"/>
+<input title="Restaurar para Página Principal Padrão" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem a certeza de que deseja restaurar a sua Página Principal?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record={$fields.id.value}';" type="button" name="password" value="Restaurar para Página Principal Padrão"/>
 {if $bean->aclAccess("detail")}{if !empty($fields.id.value) && $isAuditEnabled}<input id="btn_view_change_log" title="{$APP.LNK_VIEW_CHANGE_LOG}" class="button" onclick='open_popup("Audit", "600", "400", "&record={$fields.id.value}&module_name=Users", true, false,  {ldelim} "call_back_function":"set_return","form_name":"EditView","field_to_name_array":[] {rdelim} ); return false;' type="button" value="{$APP.LNK_VIEW_CHANGE_LOG}">{/if}{/if}
 </div>                    {/if}
 </form>
@@ -74,11 +75,11 @@
 </a>
 </li>
 <li role="presentation">
-<a data-toggle="tab" id="tab0" href="#">Advanced</a>
+<a data-toggle="tab" id="tab0" href="#">Avançada</a>
 </li>
 {if $SHOW_ROLES == true}
 <li role="presentation">
-<a data-toggle="tab" id="tab0" href="#">Access</a>
+<a data-toggle="tab" id="tab0" href="#">Acesso</a>
 </li>
 {/if}
 </ul>
@@ -86,21 +87,22 @@
 
 
 <li role="presentation" class="hidden-xs ">
-<a data-toggle="tab" id="tab1" href="#">Advanced</a>
+<a data-toggle="tab" id="tab1" href="#">Avançada</a>
 </li>
 {if $SHOW_ROLES}
 <li role="presentation" class="hidden-xs ">
-<a data-toggle="tab" id="tab2" href="#">Access</a>
+<a data-toggle="tab" id="tab2" href="#">Acesso</a>
 </li>
 {/if}
 {if $config.enable_action_menu}
 <li id="tab-actions" class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">ACTIONS<span class="suitepicon suitepicon-action-caret"></span></a>
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ações<span class="suitepicon suitepicon-action-caret"></span></a>
 <ul class="dropdown-menu">
-<li><input title="Edit" accessKey="i" name="Edit" id="edit_button" value="Edit" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='{$fields.id.value}'; _form.action.value='EditView';_form.submit();" type="button"/></li>
-<li><input id="duplicate_button" title="Duplicate" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicate"/></li>
-<li><input title="Reset User Preferences" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset all of the preferences for this user?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record={$fields.id.value}';" type="button" name="password" value="Reset User Preferences"/></li>
-<li><input title="Reset Homepage" class="button" LANGUAGE="javascript" onclick="if(confirm('Are you sure you want reset your Homepage?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record={$fields.id.value}';" type="button" name="password" value="Reset Homepage"/></li>
+<li><input title="Editar" accessKey="i" name="Edit" id="edit_button" value="Editar" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.return_id.value='{$fields.id.value}'; _form.action.value='EditView';_form.submit();" type="button"/></li>
+<li><input id="duplicate_button" title="Duplicar" accessKey="u" class="button" onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Users'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView';_form.submit();" type="button" name="Duplicate" value="Duplicar"/></li>
+<li><input id="delete_button" title="Excluir" type="button" class="button" onclick="confirmDelete();" value="Excluir" //></li>
+<li><input title="Retornar para as Preferências Padrão (Default)" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem certeza que quer repor todas as preferências para este usuário?')) window.location='index.php?module=Users&action=resetPreferences&reset_preferences=true&record={$fields.id.value}';" type="button" name="password" value="Retornar para as Preferências Padrão (Default)"/></li>
+<li><input title="Restaurar para Página Principal Padrão" class="button" LANGUAGE="javascript" onclick="if(confirm('Tem a certeza de que deseja restaurar a sua Página Principal?')) window.location='index.php?module=Users&action=DetailView&reset_homepage=true&record={$fields.id.value}';" type="button" name="password" value="Restaurar para Página Principal Padrão"/></li>
 <li>{if $bean->aclAccess("detail")}{if !empty($fields.id.value) && $isAuditEnabled}<input id="btn_view_change_log" title="{$APP.LNK_VIEW_CHANGE_LOG}" class="button" onclick='open_popup("Audit", "600", "400", "&record={$fields.id.value}&module_name=Users", true, false,  {ldelim} "call_back_function":"set_return","form_name":"EditView","field_to_name_array":[] {rdelim} ); return false;' type="button" value="{$APP.LNK_VIEW_CHANGE_LOG}">{/if}{/if}</li>
 </ul>            </li>
 {/if}

@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-16 17:39:59
+// created: 2020-09-13 14:56:33
 $mod_strings = array (
   'LNK_NEW_CALL' => 'Registrar Ligação',
   'LNK_NEW_MEETING' => 'Agendar Reunião',

@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-16 17:31:35
+// created: 2020-09-14 00:26:37
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Data de Criação:',
@@ -134,4 +134,7 @@ $mod_strings = array (
   'LBL_AOS_CONTRACTS' => 'Contratos',
   'LBL_AOS_INVOICES' => 'Pedidos',
   'LBL_AOS_QUOTES' => 'Cotações',
+  'LBL_TESTE' => 'Campo de Teste  ',
+  'LBL_EDITVIEW_PANEL1' => 'Painel de Teste',
+  'LBL_DETAILVIEW_PANEL1' => 'Painel de Teste',
 );

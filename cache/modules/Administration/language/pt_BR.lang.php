@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-16 17:31:36
+// created: 2020-09-13 14:32:37
 $mod_strings = array (
   'LBL_CAPTCHA_HELP_TEXT' => 'Captcha é um teste de desafio usado para garantir que a resposta não é gerada por um computador. Obtenha uma chave pública e uma chave privada reCAPTCHA em http://recaptcha.net/.',
   'CAPTCHA' => 'Validação Captcha',

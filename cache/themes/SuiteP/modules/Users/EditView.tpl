@@ -561,7 +561,7 @@ value='{$value}' title=''      >
     });
 {/literal}
 </script>
-<script type="text/javascript" src='include/SugarFields/Fields/Image/SugarFieldFile.js?v=74Yh1bbTjqzk5Pb2yutUSw'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/Image/SugarFieldFile.js?v=2KFmmtp33Urln_PxmBVB3w'></script>
 {if !empty($fields.photo.value) }
 {assign var=showRemove value=true}
 {else}
@@ -2122,7 +2122,7 @@ $(document).ready(function() {ldelim}
 addForm('EditView');addToValidate('EditView', 'user_name', 'user_name', true,'{/literal}{sugar_translate label='LBL_USER_NAME' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'user_hash', 'varchar', false,'{/literal}{sugar_translate label='LBL_USER_HASH' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'system_generated_password', 'bool', true,'{/literal}{sugar_translate label='LBL_SYSTEM_GENERATED_PASSWORD' module='Users' for_js=true}{literal}' );
-addToValidate('EditView', 'pwd_last_changed_date', 'date', false,'Password Last Changed' );
+addToValidate('EditView', 'pwd_last_changed_date', 'date', false,'Última alteração de senha' );
 addToValidate('EditView', 'authenticate_id', 'varchar', false,'{/literal}{sugar_translate label='LBL_AUTHENTICATE_ID' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'sugar_login', 'bool', false,'{/literal}{sugar_translate label='LBL_SUITE_LOGIN' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'first_name', 'name', false,'{/literal}{sugar_translate label='LBL_FIRST_NAME' module='Users' for_js=true}{literal}' );
@@ -2133,8 +2133,8 @@ addToValidate('EditView', 'is_admin', 'bool', false,'{/literal}{sugar_translate 
 addToValidate('EditView', 'external_auth_only', 'bool', false,'{/literal}{sugar_translate label='LBL_EXT_AUTHENTICATE' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'receive_notifications', 'bool', false,'{/literal}{sugar_translate label='LBL_RECEIVE_NOTIFICATIONS' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'description', 'text', false,'{/literal}{sugar_translate label='LBL_DESCRIPTION' module='Users' for_js=true}{literal}' );
-addToValidate('EditView', 'date_entered_date', 'date', true,'Date Entered' );
-addToValidate('EditView', 'date_modified_date', 'date', true,'Date Modified' );
+addToValidate('EditView', 'date_entered_date', 'date', true,'Data de Introdução' );
+addToValidate('EditView', 'date_modified_date', 'date', true,'Data de Modificação' );
 addToValidate('EditView', 'modified_user_id', 'assigned_user_name', false,'{/literal}{sugar_translate label='LBL_MODIFIED_BY_ID' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'modified_by_name', 'varchar', false,'{/literal}{sugar_translate label='LBL_MODIFIED_BY' module='Users' for_js=true}{literal}' );
 addToValidate('EditView', 'created_by', 'assigned_user_name', false,'{/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Users' for_js=true}{literal}' );
@@ -2178,4 +2178,4 @@ addToValidate('EditView', 'factor_auth', 'bool', false,'{/literal}{sugar_transla
 addToValidate('EditView', 'factor_auth_interface', 'enum', false,'{/literal}{sugar_translate label='LBL_FACTOR_AUTH_INTERFACE' module='Users' for_js=true}{literal}' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Users' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Users' for_js=true}{literal}', 'assigned_user_id' );
 addToValidateBinaryDependency('EditView', 'reports_to_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Users' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_REPORTS_TO_NAME' module='Users' for_js=true}{literal}', 'reports_to_id' );
-</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['EditView_reports_to_name']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["reports_to_name","reports_to_id"],"required_list":["reports_to_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>{/literal}
+</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['EditView_reports_to_name']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["reports_to_name","reports_to_id"],"required_list":["reports_to_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Nenhum Resultado"};</script>{/literal}

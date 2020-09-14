@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2020-07-16 18:05:55
+<?php /* Smarty version 2.6.31, created on 2020-07-23 19:51:12
          compiled from themes%5CSuiteP%5Cinclude/SubPanel/tpls/SubPanelDynamic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'themes\\SuiteP\\include/SubPanel/tpls/SubPanelDynamic.tpl', 49, false),array('function', 'sugar_action_menu', 'themes\\SuiteP\\include/SubPanel/tpls/SubPanelDynamic.tpl', 94, false),array('modifier', 'count', 'themes\\SuiteP\\include/SubPanel/tpls/SubPanelDynamic.tpl', 93, false),)), $this); ?>

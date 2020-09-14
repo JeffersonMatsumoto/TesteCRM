@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-16 17:31:27
+// created: 2020-09-13 14:32:29
 $mod_strings = array (
   'ERR_NO_2FACTOR_EMAIL_TMPL' => 'O modelo de e-mail para autenticação em dois fatores não está definido, altere as configurações na página de gestão de senhas.',
   'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'O modelo de e-mail para autenticação em dois fatores deve conter, pelo menos, um $code.',

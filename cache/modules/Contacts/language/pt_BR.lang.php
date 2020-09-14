@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-16 17:31:35
+// created: 2020-09-14 00:26:37
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Data de Criação',
@@ -198,4 +198,8 @@ $mod_strings = array (
   'LBL_AOS_QUOTES' => 'Cotações',
   'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Contatos do projeto a partir do título do projeto',
   'LBL_LANGUAGE' => 'Idioma',
+  'LBL_TESTE_DROPDOWN' => 'Dropdown Teste',
+  'LBL_EDITVIEW_PANEL1' => 'Painel Teste',
+  'LBL_DROPDOWN_TESTE_DYNAMIC' => 'Dropdown Dinâmico',
+  'LBL_DETAILVIEW_PANEL1' => 'Painel Teste',
 );

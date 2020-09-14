@@ -230,3 +230,242 @@ Thu Jul 16 18:05:55 2020 [13324][1][FATAL] Undefined index: module
 Thu Jul 16 18:05:55 2020 [13324][1][FATAL] Invalid or missing SubPanelDefinition property: subpanel_name
 Thu Jul 16 18:05:55 2020 [13324][1][FATAL] Failed to load original or custom subpanel data for eapm in 
 Thu Jul 16 18:35:14 2020 [10544][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 19:24:38 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 19:24:44 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:17:02 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 20:17:06 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 20:17:12 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:17:26 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:11 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:14 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:55 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:22:57 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:35:05 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 20:35:08 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:35:08 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:35:08 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:35:08 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:35:08 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:35:08 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:35:09 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:35:09 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 20:35:09 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:35:09 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 20:35:09 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 20:35:09 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:12 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:15 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:17 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 21:40:19 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:19 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:19 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:19 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:19 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:19 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:20 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:20 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:40:20 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:20 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:40:20 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:40:20 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:54:05 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 21:54:08 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 21:54:13 2020 [15228][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 16 21:54:25 2020 [15228][1][FATAL] Cannot find bean file for module: CustomFields
+Fri Jul 17 14:43:35 2020 [15296][-none-][FATAL] SECURITY: User authentication for jefferson.matsumoto failed
+Fri Jul 17 14:43:35 2020 [15296][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[jefferson.matsumoto]
+Mon Jul 20 19:15:42 2020 [12240][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jul 20 19:16:38 2020 [12240][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jul 20 19:16:43 2020 [12240][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jul 20 19:16:54 2020 [12240][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jul 20 19:17:10 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 19:17:10 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 19:17:11 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 19:17:11 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 19:17:11 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Jul 20 19:17:11 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Jul 20 19:17:14 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 19:17:14 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 19:17:14 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 19:17:14 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 19:17:14 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Jul 20 19:17:14 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Jul 20 19:40:45 2020 [12240][1][FATAL] Executing repair query:  Query Failed:ALTER TABLE jjwg_markers DROP CONSTRAINT DF__jjwg_mark__jjwg___2FBA0BF1 ALTER TABLE jjwg_markers ALTER COLUMN [jjwg_maps_lat] float(10) NULL::: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'DF__jjwg_mark__jjwg___2FBA0BF1' não é uma restrição.
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Não foi possível cancelar a restrição. Consulte os erros anteriores.
+Mon Jul 20 19:40:45 2020 [12240][1][FATAL] Exception handling in C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\MVC\Controller\SugarController.php:400
+Mon Jul 20 19:40:45 2020 [12240][1][FATAL] Exception in Controller: Falha do banco de dados. Por favor, verifique o arquivo de log de erros do SuiteCRM para maiores detalhes.
+Mon Jul 20 19:40:45 2020 [12240][1][FATAL] backtrace:
+#0 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\database\DBManager.php(353): sugar_die('Falha do banco ...')
+#1 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\database\DBManager.php(328): DBManager->registerError('Executing repai...', 'Executing repai...', true)
+#2 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\database\SqlsrvManager.php(235): DBManager->checkError('Executing repai...', true)
+#3 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\modules\Administration\repairDatabase.php(93): SqlsrvManager->query('ALTER TABLE jjw...', true, 'Executing repai...')
+#4 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\MVC\View\SugarView.php(823): include_once('C:\\Users\\ccgm1\\...')
+#5 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\MVC\View\views\view.classic.php(72): SugarView->includeClassicFile('modules/Adminis...')
+#6 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\MVC\View\SugarView.php(211): ViewClassic->display()
+#7 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#8 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#9 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\include\MVC\SugarApplication.php(113): SugarController->execute()
+#10 C:\Users\ccgm1\Documents\Jefferson\Trampo\SuiteCRM-7.10.27\index.php(53): SugarApplication->execute()
+#11 {main}
+Mon Jul 20 20:09:52 2020 [12240][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jul 20 20:09:58 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 20:09:58 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 20:09:58 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 20:09:58 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 20:09:58 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Jul 20 20:09:58 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Jul 20 20:09:59 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 20:09:59 2020 [12240][1][FATAL] Cannot find bean file for module: Connectors
+Mon Jul 20 20:09:59 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 20:09:59 2020 [12240][1][FATAL] Cannot find bean file for module: Versions
+Mon Jul 20 20:09:59 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Jul 20 20:09:59 2020 [12240][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 13:20:12 2020 [17520][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 23 13:33:45 2020 [17520][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 23 15:44:19 2020 [17520][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 23 15:44:25 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 15:44:25 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 15:44:25 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 15:44:25 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 15:44:25 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 15:44:25 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 15:44:26 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 15:44:26 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 15:44:26 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 15:44:26 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 15:44:26 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 15:44:26 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 19:49:49 2020 [17520][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 23 19:49:57 2020 [17520][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 23 19:50:17 2020 [17520][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jul 23 19:50:35 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 19:50:35 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 19:50:35 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 19:50:35 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 19:50:35 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 19:50:35 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 19:50:36 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 19:50:36 2020 [17520][1][FATAL] Cannot find bean file for module: Connectors
+Thu Jul 23 19:50:36 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 19:50:36 2020 [17520][1][FATAL] Cannot find bean file for module: Versions
+Thu Jul 23 19:50:36 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Thu Jul 23 19:50:36 2020 [17520][1][FATAL] Cannot find bean file for module: CustomFields
+Fri Jul 24 17:18:09 2020 [11436][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:22:28 2020 [7656][-none-][FATAL] SECURITY: User authentication for tester failed
+Sun Aug  2 23:22:28 2020 [7656][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[tester]
+Sun Aug  2 23:22:38 2020 [7656][-none-][FATAL] SECURITY: User authentication for tester failed
+Sun Aug  2 23:22:38 2020 [7656][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[tester]
+Sun Aug  2 23:23:05 2020 [7656][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:25:35 2020 [7656][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:33:54 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:37:25 2020 [7656][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:38:33 2020 [7656][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:39:50 2020 [7656][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:42:17 2020 [7656][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:45:19 2020 [7656][-none-][FATAL] SECURITY: User authentication for teste failed
+Sun Aug  2 23:45:19 2020 [7656][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[teste]
+Sun Aug  2 23:45:27 2020 [7656][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:47:21 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:50:04 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:51:15 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:52:21 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:54:03 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Aug  2 23:57:56 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Aug  3 00:01:58 2020 [7656][ca26d2f0-d5aa-8cfb-911e-5f1990b88086][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Aug  3 00:05:42 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Aug  3 00:07:09 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Aug  3 00:48:50 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Aug  3 00:50:10 2020 [7656][42e77178-4e27-9b1e-bba5-5f274c334588][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Sep 13 14:32:09 2020 [11304][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Sep 13 14:56:50 2020 [11304][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Sep 13 14:56:56 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Sun Sep 13 14:56:56 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Sun Sep 13 14:56:56 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Sun Sep 13 14:56:56 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Sun Sep 13 14:56:56 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields
+Sun Sep 13 14:56:56 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields
+Sun Sep 13 14:56:57 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Sun Sep 13 14:56:57 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Sun Sep 13 14:56:57 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Sun Sep 13 14:56:57 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Sun Sep 13 14:56:57 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields
+Sun Sep 13 14:56:57 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Sep 14 00:08:22 2020 [11304][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Sep 14 00:08:29 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Mon Sep 14 00:08:29 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Mon Sep 14 00:08:29 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Mon Sep 14 00:08:29 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Mon Sep 14 00:08:29 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Sep 14 00:08:29 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Sep 14 00:08:30 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Mon Sep 14 00:08:30 2020 [11304][1][FATAL] Cannot find bean file for module: Connectors
+Mon Sep 14 00:08:30 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Mon Sep 14 00:08:30 2020 [11304][1][FATAL] Cannot find bean file for module: Versions
+Mon Sep 14 00:08:30 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields
+Mon Sep 14 00:08:30 2020 [11304][1][FATAL] Cannot find bean file for module: CustomFields

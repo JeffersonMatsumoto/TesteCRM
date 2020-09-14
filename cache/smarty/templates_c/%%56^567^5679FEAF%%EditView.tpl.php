@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2020-07-16 18:05:00
+<?php /* Smarty version 2.6.31, created on 2020-08-02 23:43:11
          compiled from cache/themes/SuiteP/modules/Users/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 4, false),array('function', 'sugar_action_menu', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 93, false),array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 116, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 137, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 162, false),array('function', 'html_options', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 234, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 262, false),array('function', 'sugar_help', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 1491, false),array('function', 'sugar_getimage', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 1884, false),array('block', 'minify', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 153, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 155, false),array('modifier', 'lookup', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 259, false),array('modifier', 'count', 'cache/themes/SuiteP/modules/Users/EditView.tpl', 361, false),)), $this); ?>
@@ -788,7 +788,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 '; ?>
 
 </script>
-<script type="text/javascript" src='include/SugarFields/Fields/Image/SugarFieldFile.js?v=74Yh1bbTjqzk5Pb2yutUSw'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/Image/SugarFieldFile.js?v=2KFmmtp33Urln_PxmBVB3w'></script>
 <?php if (! empty ( $this->_tpl_vars['fields']['photo']['value'] )): ?>
 <?php $this->assign('showRemove', true); ?>
 <?php else: ?>
@@ -2804,7 +2804,7 @@ addToValidate(\'EditView\', \'user_hash\', \'varchar\', false,\''; ?>
 addToValidate(\'EditView\', \'system_generated_password\', \'bool\', true,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_SYSTEM_GENERATED_PASSWORD','module' => 'Users','for_js' => true), $this);?>
 <?php echo '\' );
-addToValidate(\'EditView\', \'pwd_last_changed_date\', \'date\', false,\'Password Last Changed\' );
+addToValidate(\'EditView\', \'pwd_last_changed_date\', \'date\', false,\'Última alteração de senha\' );
 addToValidate(\'EditView\', \'authenticate_id\', \'varchar\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_AUTHENTICATE_ID','module' => 'Users','for_js' => true), $this);?>
 <?php echo '\' );
@@ -2835,8 +2835,8 @@ addToValidate(\'EditView\', \'receive_notifications\', \'bool\', false,\''; ?>
 addToValidate(\'EditView\', \'description\', \'text\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_DESCRIPTION','module' => 'Users','for_js' => true), $this);?>
 <?php echo '\' );
-addToValidate(\'EditView\', \'date_entered_date\', \'date\', true,\'Date Entered\' );
-addToValidate(\'EditView\', \'date_modified_date\', \'date\', true,\'Date Modified\' );
+addToValidate(\'EditView\', \'date_entered_date\', \'date\', true,\'Data de Introdução\' );
+addToValidate(\'EditView\', \'date_modified_date\', \'date\', true,\'Data de Modificação\' );
 addToValidate(\'EditView\', \'modified_user_id\', \'assigned_user_name\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_MODIFIED_BY_ID','module' => 'Users','for_js' => true), $this);?>
 <?php echo '\' );
@@ -2970,4 +2970,4 @@ addToValidateBinaryDependency(\'EditView\', \'reports_to_name\', \'alpha\', fals
 <?php echo ': '; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_REPORTS_TO_NAME','module' => 'Users','for_js' => true), $this);?>
 <?php echo '\', \'reports_to_id\' );
-</script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'EditView_reports_to_name\']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["reports_to_name","reports_to_id"],"required_list":["reports_to_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>'; ?>
+</script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'EditView_reports_to_name\']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["reports_to_name","reports_to_id"],"required_list":["reports_to_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Nenhum Resultado"};</script>'; ?>

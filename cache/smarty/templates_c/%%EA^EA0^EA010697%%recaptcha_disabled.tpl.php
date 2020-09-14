@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2020-07-16 18:03:48
+<?php /* Smarty version 2.6.31, created on 2020-07-24 13:31:07
          compiled from C:%5CUsers%5Cccgm1%5CDocuments%5CJefferson%5CTrampo%5CSuiteCRM-7.10.27%5Cinclude%5Cutils/recaptcha_disabled.tpl */ ?>
 <?php echo '
 <script>

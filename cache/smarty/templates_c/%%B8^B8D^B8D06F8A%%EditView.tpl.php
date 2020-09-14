@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2020-07-16 18:24:42
+<?php /* Smarty version 2.6.31, created on 2020-09-13 21:49:06
          compiled from cache/themes/SuiteP/modules/Accounts/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 102, false),array('modifier', 'lookup', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 585, false),array('modifier', 'count', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 687, false),array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 63, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 84, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 109, false),array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 246, false),array('function', 'html_options', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 560, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 588, false),array('block', 'minify', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 100, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 102, false),array('modifier', 'lookup', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 637, false),array('modifier', 'count', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 739, false),array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 63, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 84, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 109, false),array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 298, false),array('function', 'html_options', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 612, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 640, false),array('block', 'minify', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 100, false),)), $this); ?>
 
 
 <script>
@@ -139,12 +139,71 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'c
 <div class="panel-heading ">
 <a class="" role="button" data-toggle="collapse-edit" aria-expanded="false">
 <div class="col-xs-10 col-sm-11 col-md-11">
+<?php echo smarty_function_sugar_translate(array('label' => 'LBL_EDITVIEW_PANEL1','module' => 'Accounts'), $this);?>
+
+</div>
+</a>
+</div>
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="LBL_EDITVIEW_PANEL1">
+<div class="tab-content">
+<!-- tab_panel_content.tpl -->
+<div class="row edit-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 edit-view-row-item">
+
+
+<div class="col-xs-12 col-sm-2 label" data-label="LBL_TESTE">
+
+<?php $this->_tag_stack[] = array('minify', array()); $_block_repeat=true;smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+<?php ob_start(); ?><?php echo smarty_function_sugar_translate(array('label' => 'LBL_TESTE','module' => 'Accounts'), $this);?>
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean(); ?>
+<?php echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+
+<span class="required">*</span>
+<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="teste_c" colspan='3' >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
+
+
+<?php if (strlen ( $this->_tpl_vars['fields']['teste_c']['value'] ) <= 0): ?>
+<?php $this->assign('value', $this->_tpl_vars['fields']['teste_c']['default_value']); ?>
+<?php else: ?>
+<?php $this->assign('value', $this->_tpl_vars['fields']['teste_c']['value']); ?>
+<?php endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['teste_c']['name']; ?>
+' 
+id='<?php echo $this->_tpl_vars['fields']['teste_c']['name']; ?>
+' size='30' 
+maxlength='255' 
+value='<?php echo $this->_tpl_vars['value']; ?>
+' title='Campo criado de teste '      >
+</div>
+
+<!-- [/hide] -->
+</div>
+<div class="clear"></div>
+</div>                    </div>
+</div>
+</div>
+
+
+
+
+<div class="panel panel-default">
+<div class="panel-heading ">
+<a class="" role="button" data-toggle="collapse-edit" aria-expanded="false">
+<div class="col-xs-10 col-sm-11 col-md-11">
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_ACCOUNT_INFORMATION','module' => 'Accounts'), $this);?>
 
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="LBL_ACCOUNT_INFORMATION">
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_0" data-id="LBL_ACCOUNT_INFORMATION">
 <div class="tab-content">
 <!-- tab_panel_content.tpl -->
 <div class="row edit-view-row">
@@ -694,7 +753,7 @@ _<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_0" data-id="LBL_PANEL_ADVANCED">
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_1" data-id="LBL_PANEL_ADVANCED">
 <div class="tab-content">
 <!-- tab_panel_content.tpl -->
 <div class="row edit-view-row">
@@ -2024,6 +2083,9 @@ addToValidate(\'EditView\', \'jjwg_maps_lat_c\', \'float\', false,\''; ?>
 <?php echo '\' );
 addToValidate(\'EditView\', \'jjwg_maps_lng_c\', \'float\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_JJWG_MAPS_LNG','module' => 'Accounts','for_js' => true), $this);?>
+<?php echo '\' );
+addToValidate(\'EditView\', \'teste_c\', \'varchar\', true,\''; ?>
+<?php echo smarty_function_sugar_translate(array('label' => 'LBL_TESTE','module' => 'Accounts','for_js' => true), $this);?>
 <?php echo '\' );
 addToValidateBinaryDependency(\'EditView\', \'assigned_user_name\', \'alpha\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'Accounts','for_js' => true), $this);?>

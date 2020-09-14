@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2020-07-16 18:06:03
+<?php /* Smarty version 2.6.31, created on 2020-08-02 23:17:10
          compiled from themes/SuiteP/modules/Users/tpls/DetailView-advanced-tab-content.tpl */ ?>
 {*
 advanced tab content goes here
